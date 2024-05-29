@@ -1,3 +1,4 @@
+/*Uses the css stylesheet to customise the body changing its background to an image with 0 margin and 0 padding*/
 body {
     cursor: none;
     background-color: black;
@@ -9,11 +10,11 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/*Hides the scrollbar from being displayed*/
 ::-webkit-scrollbar {
     display: none;
 }
-
+/*Changes the border radius to 50% to give it a circle radius and adds a solid white border with a box-shadow effect*/
 .mainphoto img {
     position: absolute;
     border-radius: 50%;
@@ -23,7 +24,7 @@ body {
     box-shadow: 0 10px 20px rgba(255, 255, 255, 0.5);
     filter: grayscale(100%);
 }
-
+/*Styles all h1 text to have a white shadow blurry effect*/
 h1 {
     color: white;
     position: absolute;
@@ -33,7 +34,7 @@ h1 {
     box-shadow: 3px;
     text-shadow: 20px 20px 20px rgba(255, 255, 255, 0.5);
 }
-
+/*Styles all h2 text to have a white shadow blurry effect*/
 h2 {
     color: white;
     position: absolute;
@@ -42,7 +43,7 @@ h2 {
     font-size: 85px;
     text-shadow: 20px 20px 20px rgba(255, 255, 255, 0.5);
 }
-
+/*Styles all h3 text to have a white shadow blurry effect*/
 h3 {
     color: white;
     position: absolute;
