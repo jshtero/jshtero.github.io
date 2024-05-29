@@ -59,7 +59,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #252323;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
